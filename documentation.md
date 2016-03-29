@@ -13,27 +13,27 @@ Make sure that the file is a NASA Ames 1001 EBAS formatted file, as described fr
 
 > Press the **Select file** button to select file from local directory
 
-![Select file](static/images/docs/select_file.png "Select file")
+![Select file](images/select_file.png "Select file")
 
 > Check file against the EBAS database tables by pressing the **Upload and check** button. Depending on the file size, this might take up to 1 minute.
 
-![Upload and check](static/images/docs/upload_check.png "Upload and check")
+![Upload and check](images/upload_check.png "Upload and check")
 
 > The number of header errors and warnings, and data errors and warnings, are separated in two different windows.
 
-![Errors and warnings](static/images/docs/error_warning.png "Errors and warnings")
+![Errors and warnings](images/error_warning.png "Errors and warnings")
 
 > Errors and warnings are marked in red and orange, respectively.
 
-![Errors and warnings are marked in red and orange, respectively.](static/images/docs/red_orange.png "Errors and warnings are marked in red and orange, respectively.")
+![Errors and warnings are marked in red and orange, respectively.](images/red_orange.png "Errors and warnings are marked in red and orange, respectively.")
 
 > Pointing the mouse pointer on the highlighted line will show the error/warning message
 
-![error/warning message](static/images/docs/error_warning_message.png "error/warning message")
+![error/warning message](images/error_warning_message.png "error/warning message")
 
 > Errors in file header can be corrected directly in the online browser. It is possible to correct all errors in one batch before re-checking the file. When done with the corrections, press the **Recheck file** botton. 
 
-![Recheck file button](static/images/docs/recheck_file.png "Recheck file button")
+![Recheck file button](images/recheck_file.png "Recheck file button")
 
 > Errors in the data part must be corrected locally on the user’s PC. Before the local modifications take place, it is possible to save and store the file modified in the web-tool to the local disc to include the modified header in the locally modified file. This is achieved by pressing the **Save file** button. The file is then downloaded to the data submitter’s local computer and can be opened there for editing. The figure below gives an example of a file with errors in the datapart.
 
@@ -43,7 +43,7 @@ Make sure that the file is a NASA Ames 1001 EBAS formatted file, as described fr
 
 > If/when file is correct, the statusbar will turn green and the **Submit file** button is activated. Upon submit, the file is sent to the EBAS FTP system, and an auto-email is sent to the data submitter. After entering the FTP system, the NASA Ames file is forwarded to manual inspection at NILU. 
 
-![Submit file button](static/images/docs/submit_file.png "Submit file button")
+![Submit file button](images/submit_file.png "Submit file button")
 
 --------  -----------------------
 **Post-processing inside NILU:** 
