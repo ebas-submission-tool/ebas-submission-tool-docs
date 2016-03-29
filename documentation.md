@@ -37,7 +37,7 @@ Make sure that the file is a NASA Ames 1001 EBAS formatted file, as described fr
 
 > Errors in the data part must be corrected locally on the user’s PC. Before the local modifications take place, it is possible to save and store the file modified in the web-tool to the local disc to include the modified header in the locally modified file. This is achieved by pressing the **Save file** button. The file is then downloaded to the data submitter’s local computer and can be opened there for editing. The figure below gives an example of a file with errors in the datapart.
 
-![Save file button](static/images/docs/save_file.png "Save file button")
+![Save file button](images/save_file.png "Save file button")
 
 > **Reset the system. Select file. Upload and check.**
 
