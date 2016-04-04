@@ -14,6 +14,7 @@ Make sure that the file is a NASA Ames 1001 EBAS formatted file, as described fr
 > Press the **Select file** button to select file from local directory
 
 ![Select file](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/select_file.png "Select file")
+[<img src="https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/select_file.png">](Select file)
 
 > Check file against the EBAS database tables by pressing the **Upload and check** button. Depending on the file size, this might take up to 1 minute.
 
