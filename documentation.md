@@ -2,6 +2,9 @@
 How to use EBAS Data Submission Tool
 ============
 
+> This is a quick introductory manual for the ebas-submit-tool as well as the plotting tool offered. This document also contains an how-to on how to contribute to the troubleshooting documentation as well as the manual itself. Please fork the ebas-submit-tool user-manual repository to contribute to the documentation. [https://github.com/richard-olav/docs-ebas-data-submission-tool](https://github.com/richard-olav/docs-ebas-data-submission-tool). For data submission specific issues, please see the [EBAS data submission Manual](http://ebas-submit.nilu.no/). 
+
+
 Go to [http://ebas-submit-tool.nilu.no/](http://ebas-submit-tool.nilu.no/)
 
 Make sure that the file is a NASA Ames 1001 EBAS formatted file, as described from the templates at [http://ebas-submit.nilu.no/](http://ebas-submit.nilu.no/) or [http://www.gaw-wdca.org](http://www.gaw-wdca.org). 
