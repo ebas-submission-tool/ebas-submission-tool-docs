@@ -1,4 +1,3 @@
-
 How to use EBAS Data Submission Tool application
 ============
 
@@ -61,3 +60,6 @@ The EBAS-submission-tool also comes with plotting capabilities. This is in order
 
 ###The EBAS team <3 contributions!
 For the EBAS-submission-tool manual and the troubleshooting document, git is used as a version controll system, and github is the platform hosting these documents. In order to contribute, you could fork the repository, and then we will look throught the proposed changes, and then commit these changes if we find that they are valuable to the project.
+
+##The ebas-file-submission issue tracker
+At the moment we are experimenting with online support of our ebas-submission-tool platform. If you go the the issue tracker via the main menu, you will get a list of errors reported from users trying to upload files using the ebas submission tool. We are doing this in order for our users to look through errors and see if any of the users previously has submitted errors similar to you (if you ever experienced one). Instead of us helping each and one of you directly, we want to build a repository where everybody can take part. You will have to have a registered Github account to submit issues (this is free of charge) to submit issues and comment on issues reported. If you do not have a userr, you could still browse the issues submited via the issue tracker.
