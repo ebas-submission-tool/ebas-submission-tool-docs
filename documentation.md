@@ -1,9 +1,10 @@
 
-How to use EBAS Data Submission Tool
+How to use EBAS Data Submission Tool application
 ============
 
 > This is a quick introductory manual for the ebas-submit-tool as well as the plotting tool offered. This document also contains an how-to on how to contribute to the troubleshooting documentation as well as the manual itself. Please fork the ebas-submit-tool user-manual repository to contribute to the documentation. [https://github.com/richard-olav/docs-ebas-data-submission-tool](https://github.com/richard-olav/docs-ebas-data-submission-tool). For data submission specific issues, please see the [EBAS data submission Manual](http://ebas-submit.nilu.no/). 
 
+##The EBAS Data submission Tool
 
 Go to [http://ebas-submit-tool.nilu.no/](http://ebas-submit-tool.nilu.no/)
 
@@ -53,3 +54,10 @@ Make sure that the file is a NASA Ames 1001 EBAS formatted file, as described fr
 Before the data can be uploaded to EBAS, the submitted file will need manual inspection by the database team. If the file is correctly formatted, data will be available in EBAS within a few working days. The data submitter will be informed when this is done. He/she will also be contacted in case of problems with, or questions to, the submitted file.
 --------  -----------------------
 
+##Plotting data
+The EBAS-submission-tool also comes with plotting capabilities. This is in order to make it easier for the users to validate their files and inspect their data before submission. This is especially usefull when you want to check for unusall values in your dataset and to double check that you have flagged all of these values. The community could also request to contribute to this tool by sending a request to ror@nilu.no.
+
+##Contributing to the manual and the troubleshooting document
+
+###The EBAS team <3 contributions!
+For the EBAS-submission-tool manual and the troubleshooting document, git is used as a version controll system, and github is the platform hosting these documents. In order to contribute, you could fork the repository, and then we will look throught the proposed changes, and then commit these changes if we find that they are valuable to the project.
