@@ -56,6 +56,10 @@ Before the data can be uploaded to EBAS, the submitted file will need manual ins
 ##Plotting data
 The EBAS-submission-tool also comes with plotting capabilities. This is in order to make it easier for the users to validate their files and inspect their data before submission. This is especially usefull when you want to check for unusall values in your dataset and to double check that you have flagged all of these values. The community could also request to contribute to this tool by sending a request to ror@nilu.no.
 
+###Chrome users
+If you are using Google Chrome, your select box might only show the first column in the selected dataset. To enable selecting all of the columns, you have to change some of your default settings in Google Chrome.
+First go to Edit -> Preferences. Then at the bottom of the settings page (chrome://settings) press "Show advanced settings...". Scroll down until you see "Use hardware acceleration when available". Make sure this box is checked. This should work and if not, Firefox should be a safe choice.  
+
 ##Contributing to the manual and the troubleshooting document
 
 ###The EBAS team <3 contributions!
