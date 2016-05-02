@@ -79,6 +79,6 @@ The EBAS-submit-tool is utilizes an open source technology stack.
 
 ![Gitlab](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/tech_stack/gitlab.png "Gitlab")
 
-![Markdown](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/tech_stack/markdown.jpg "Markdown")
+![Markdown](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/tech_stack/markdown.png "Markdown")
 
 ![Bokeh](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/tech_stack/bokeh.png "Bokeh")
