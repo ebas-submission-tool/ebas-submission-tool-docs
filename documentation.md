@@ -68,19 +68,25 @@ At the moment we are experimenting with online support of our ebas-submission-to
 The EBAS-submit-tool is utilizes an open source technology stack.
 
 ![Python-flask](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/tech_stack/flask.png "Flask")
-###http://flask.pocoo.org/
+###<http://flask.pocoo.org/>
 
 ![Python](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/tech_stack/python.png "Python")
-###https://www.python.org/
+###<https://www.python.org/>
 
 ![Bootstrap](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/tech_stack/bootstrap.png "Bootstrap")
+###
 
 ![Git](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/tech_stack/git.png "Git")
+###<http://getbootstrap.com/>
 
 ![Github](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/tech_stack/github.png "Github")
+###<https://github.com/>
 
 ![Gitlab](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/tech_stack/gitlab.png "Gitlab")
+###<https://about.gitlab.com/>
 
 ![Markdown](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/tech_stack/markdown.png "Markdown")
+###<http://daringfireball.net/projects/markdown/>
 
 ![Bokeh](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/tech_stack/bokeh.png "Bokeh")
+###<http://bokeh.pydata.org/en/latest/>
