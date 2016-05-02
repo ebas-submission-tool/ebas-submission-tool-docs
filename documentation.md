@@ -74,10 +74,10 @@ The EBAS-submit-tool is utilizes an open source technology stack.
 ###<https://www.python.org/>
 
 ![Bootstrap](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/tech_stack/bootstrap.png "Bootstrap")
-###
+###<http://getbootstrap.com/>
 
 ![Git](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/tech_stack/git.png "Git")
-###<http://getbootstrap.com/>
+###<https://git-scm.com/>
 
 ![Github](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/tech_stack/github.png "Github")
 ###<https://github.com/>
