@@ -48,6 +48,10 @@ Make sure that the file is a NASA Ames 1001 EBAS formatted file, as described fr
 
 ![Submit file button](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/submit_file.png "Submit file button")
 
+###Session timeout
+If you are working with a file, you must notice that the lifetime of a session is set to 30 minutes. Therfore all changes made in the web-editor will be lost after 30 minutes. 
+As a result we advise that you save your file whenever a change has been made, so that you do not loose any changes.
+
 --------  -----------------------
 **Post-processing inside NILU:** 
 Before the data can be uploaded to EBAS, the submitted file will need manual inspection by the database team. If the file is correctly formatted, data will be available in EBAS within a few working days. The data submitter will be informed when this is done. He/she will also be contacted in case of problems with, or questions to, the submitted file.
