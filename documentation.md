@@ -68,8 +68,10 @@ At the moment we are experimenting with online support of our ebas-submission-to
 The EBAS-submit-tool is utilizes an open source technology stack.
 
 ![Python-flask](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/tech_stack/flask.png "Flask")
+###http://flask.pocoo.org/
 
 ![Python](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/tech_stack/python.png "Python")
+###https://www.python.org/
 
 ![Bootstrap](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/tech_stack/bootstrap.png "Bootstrap")
 
