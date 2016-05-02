@@ -5,6 +5,7 @@ How to use EBAS Data Submission Tool application
 
 ##The EBAS Data submission Tool
 
+###Quick introduction
 Go to [http://ebas-submit-tool.nilu.no/](http://ebas-submit-tool.nilu.no/)
 
 Make sure that the file is a NASA Ames 1001 EBAS formatted file, as described from the templates at [http://ebas-submit.nilu.no/](http://ebas-submit.nilu.no/) or [http://www.gaw-wdca.org](http://www.gaw-wdca.org). 
@@ -51,6 +52,9 @@ Make sure that the file is a NASA Ames 1001 EBAS formatted file, as described fr
 ###Session timeout
 If you are working with a file, you must notice that the lifetime of a session is set to 30 minutes. Therfore all changes made in the web-editor will be lost after 30 minutes. 
 As a result we advise that you save your file whenever a change has been made, so that you do not loose any changes.
+
+###Saving files
+In order to save the changes you have commited in the ebas-web-editor, you must recheck the file (press the recheck button), before you press the save button in order for your changes to be saved on your machine.
 
 --------  -----------------------
 **Post-processing inside NILU:** 
