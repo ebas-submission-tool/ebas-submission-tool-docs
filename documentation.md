@@ -63,3 +63,21 @@ For the EBAS-submission-tool manual and the troubleshooting document, Git is use
 
 ##The ebas-file-submission issue tracker
 At the moment we are experimenting with online support of our ebas-submission-tool platform. If you go the the issue tracker via the main menu, you will get a list of errors reported from users trying to upload files using the ebas submission tool. We are doing this in order for our users to look through errors and see if any of the users previously has submitted errors similar to you (if you ever experienced one). Instead of us helping each and one of you directly, we want to build a repository where everybody can take part. You will have to have a registered Github account to submit issues (this is free of charge) to submit issues and comment on issues reported. If you do not have a user, you could still browse the issues submited via the [issue tracker](https://github.com/richard-olav/troubleshooting-ebas-submit-errors/issues).
+
+##Tech Stack
+The EBAS-submit-tool is developed on a open source technology stack.
+
+![Python-flask](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/tech_stack/flask.png "Flask")
+
+![Python](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/tech_stack/python.png "Python")
+
+![Bootstrap](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/tech_stack/bootstrap.png "Bootstrap")
+
+![Git](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/tech_stack/git.png "Git")
+
+![Github](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/tech_stack/github.png "Github")
+
+![Gitlab](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/tech_stack/gitlab.png "Gitlab")
+
+![Markdown](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/tech_stack/markdown.jpg "Markdown")
+
