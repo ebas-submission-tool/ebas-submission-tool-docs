@@ -17,37 +17,37 @@ Make sure that the file is a NASA Ames 1001 EBAS formatted file, as described fr
 
 > Press the **Select file** button to select file from local directory
 
-![Select file](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/select_file.png "Select file")
+![Select file](https://raw.githubusercontent.com/ebas-submission-tool/ebas-submission-tool-docs/master/images/select_file.png "Select file")
 
 > Check file against the EBAS database tables by pressing the **Upload and check** button. Depending on the file size, this might take up to 1 minute.
 
-![Upload and check](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/upload_check.png "Upload and check")
+![Upload and check](https://raw.githubusercontent.com/ebas-submission-tool/ebas-submission-tool-docs/master/images/upload_check.png "Upload and check")
 
 > The number of header errors and warnings, and data errors and warnings, are separated in two different windows.
 
-![Errors and warnings](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/error_warning.png "Errors and warnings")
+![Errors and warnings](https://raw.githubusercontent.com/ebas-submission-tool/ebas-submission-tool-docs/master/images/error_warning.png "Errors and warnings")
 
 > Errors and warnings are marked in red and orange, respectively.
 
-![Errors and warnings are marked in red and orange, respectively.](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/red_orange.png "Errors and warnings are marked in red and orange, respectively.")
+![Errors and warnings are marked in red and orange, respectively.](https://raw.githubusercontent.com/ebas-submission-tool/ebas-submission-tool-docs/master/images/red_orange.png "Errors and warnings are marked in red and orange, respectively.")
 
 > Pointing the mouse pointer on the highlighted line will show the error/warning message
 
-![error/warning message](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/error_warning_message.png "error/warning message")
+![error/warning message](https://raw.githubusercontent.com/ebas-submission-tool/ebas-submission-tool-docs/master/images/error_warning_message.png "error/warning message")
 
 > Errors in file header can be corrected directly in the online browser. It is possible to correct all errors in one batch before re-checking the file (but be aware that the session might time out, see chapter on session timeouts). When done with the corrections, press the **Recheck file** botton. 
 
-![Recheck file button](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/recheck_file.png "Recheck file button")
+![Recheck file button](https://raw.githubusercontent.com/ebas-submission-tool/ebas-submission-tool-docs/master/images/recheck_file.png "Recheck file button")
 
 > Errors in the data part must be corrected locally on the user’s PC. Before the local modifications take place, it is possible to save and store the file modified in the web-tool to the local disc to include the modified header in the locally modified file. This is achieved by pressing the **Save file** button. The file is then downloaded to the data submitter’s local computer and can be opened there for editing. The figure below gives an example of a file with errors in the datapart.
 
-![Save file button](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/save_file.png "Save file button")
+![Save file button](https://raw.githubusercontent.com/ebas-submission-tool/ebas-submission-tool-docs/master/images/save_file.png "Save file button")
 
 > **Reset the system. Select file. Upload and check.**
 
 > If/when file is correct, the statusbar will turn green and the **Submit file** button is activated. Upon submit, the file is sent to the EBAS FTP system, and an auto-email is sent to the data submitter. After entering the FTP system, the NASA Ames file is forwarded to manual inspection at NILU. 
 
-![Submit file button](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/submit_file.png "Submit file button")
+![Submit file button](https://raw.githubusercontent.com/ebas-submission-tool/ebas-submission-tool-docs/master/images/submit_file.png "Submit file button")
 
 ###Session timeout
 If you are working with a file, you must notice that the lifetime of a session is set to 30 minutes. Therfore all changes made in the web-editor will be lost after 30 minutes. 
