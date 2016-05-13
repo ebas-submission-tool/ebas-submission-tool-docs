@@ -35,7 +35,7 @@ Make sure that the file is a NASA Ames 1001 EBAS formatted file, as described fr
 
 ![error/warning message](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/error_warning_message.png "error/warning message")
 
-> Errors in file header can be corrected directly in the online browser. It is possible to correct all errors in one batch before re-checking the file. When done with the corrections, press the **Recheck file** botton. 
+> Errors in file header can be corrected directly in the online browser. It is possible to correct all errors in one batch before re-checking the file (but be aware that the session might time out, see chapter on session timeouts). When done with the corrections, press the **Recheck file** botton. 
 
 ![Recheck file button](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/recheck_file.png "Recheck file button")
 
