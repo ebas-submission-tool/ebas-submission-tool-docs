@@ -9,8 +9,8 @@ How to use EBAS Data Submission Tool application
 The EBAS Data Submission Tool is an online file format checker and a data submission system. It is designed to give the data submitters direct feedback on the formatted NASA Ames files and to deliver files through online data submission.
 
 Data submitters from all projects and programs submitting data to EBAS who want to: 
-- check the consistency of their NASA Ames file 
-- upload data to EBAS
+* check the consistency of their NASA Ames file 
+* upload data to EBAS
 should use the tool.
 
 All measurement principles registred in the EBAS portal, with online formatting templates available at http://ebas-submit.nilu.no and http://gaw-wdca.org/SubmitData.aspx are supported by the tool. 
