@@ -21,7 +21,13 @@ This page contains information about the EBAS data submission and validation too
 
 - If you have data submission specific issues, please see the [EBAS data submission Manual](http://ebas-submit-tool.nilu.no/troubleshooting) or contact us at <ebas@nilu.no>. 
 
-- And if you would like to contribute to our troubleshooting docs you can check out **section 4**. 
+- If you would like to contribute to our troubleshooting docs you can check out **section 4**. 
+
+- For syntactical help related to the files themselves, take a look at **section 5**.
+
+- If you are wondering when we schedule the next release, see **section 6**.
+
+- And if you are interested in knowing more about our tech-stack, take a look at **section 7**.
 
 ###1. Quick Start- File validation
 
@@ -114,22 +120,21 @@ The EBAS-submission-tool also comes with plotting capabilities. This is in order
 If you are using Google Chrome, your select box might only show the first column in the selected dataset. To enable selecting all of the columns, you have to change some of your default settings in Google Chrome.
 First go to Edit -> Preferences. Then at the bottom of the settings page (chrome://settings) press "Show advanced settings...". Scroll down until you see "Use hardware acceleration when available". Make sure this box is checked. This should work and if not, Firefox should be a safe choice.  
 
-##Contributing to the manual and the troubleshooting document
+###4. Contributing to the troubleshooting document
 
-###The EBAS team <3 contributions!
-For the EBAS-submission-tool manual and the troubleshooting document, Git is used as a version controll system, and github is the platform hosting these documents. In order to contribute, you could fork the repository, and then we will look throught the proposed changes, and then commit these changes if we find that they are valuable to the project.
+For the EBAS-submit-tool troubleshooting document, Git is used as a version controll system, and github is the platform hosting these document. In order to contribute, you could fork the repository, and then we will look throught the proposed changes, and then commit these changes if we find that they are valuable to the project.
 
-##The ebas-file-submission issue tracker
-At the moment we are experimenting with online support of our ebas-submission-tool platform. If you go the the issue tracker via the main menu, you will get a list of errors reported from users trying to upload files using the ebas submission tool. We are doing this in order for our users to look through errors and see if any of the users previously has submitted errors similar to you (if you ever experienced one). Instead of us helping each and one of you directly, we want to build a repository where everybody can take part. You will have to have a registered Github account to submit issues (this is free of charge) to submit issues and comment on issues reported. If you do not have a user, you could still browse the issues submited via the [issue tracker](https://github.com/richard-olav/troubleshooting-ebas-submit-errors/issues).
+###5. The EBAS-file-submission and validation issue tracker
+At the moment we are experimenting with online support of our ebas-submission-tool platform. If you check out our [issue tracker](https://github.com/ebas-submission-tool/troubleshooting/issues), you will get a list of errors reported from users trying to upload files using the ebas submission tool. We are doing this in order for our users to look through errors and see if any of the users previously has submitted errors similar to you (if you ever experienced one). Instead of us helping each and one of you directly, we want to have a forum where everybody can take part. You will have to have a registered Github account to submit issues (this is free of charge) and comment on issues reported. But if you do not have a user, you could still browse the issues submited via the [issue tracker](https://github.com/ebas-submission-tool/troubleshooting/issues).
 
-## Releases
-**Next release is scheduled for 20th of June, 2016**
+###6. Releases
+**Next release, version 1.1 is scheduled for 20th of June, 2016**
 
 This will include bug fixes for:
 * Plotting data with resoultion more than 1 year
 * Session is deleted after 30 minutes
 
-## Tech Stack
+###7. Tech Stack
 The EBAS-submit-tool is utilizes an open source technology stack.
 
 ![Python-flask](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/tech_stack/flask.png "Flask")
