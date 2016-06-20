@@ -1,6 +1,6 @@
 > **Pay attention**:
 > + Currently you can only plot data that has a one year resolution
-> + Session times out after 30 minutes regardless of browser activity
+> + Session times out after 30 minutes regardless of browser activity. As a result we advise that you save your file whenever a change has been made, so that you do not loose any changes.
 > + Also makes sure that your file is encoded using UTF-8
 
 The EBAS Data Submission Tool
@@ -11,42 +11,41 @@ This page contains information about the EBAS data submission and validation too
 
 **So where do I go**:
 
-- If you are in a hurry to submit your data to EBAS you can look at section A. Quick Start
+- If you are in a hurry to submit your data to EBAS you can look at **section 1.** Quick Start
 
-- If you want a more thorugh understanding of the tool please have a look at section B. In depth tutorial of the EBAS-submit-tool
+- If you want a more thorugh understanding of the tool please have a look at **section 2.** In depth tutorial of the EBAS-submit-tool
 
-- If you have a file you would like to plot, please see section C.
+- If you have a file you would like to plot, please see **section 3.**
 
 - If you have problems with validating or parsing your file plases see the [EBAS-submit-tool troubleshooting docs](http://ebas-submit-tool.nilu.no/troubleshooting)
 
 - For data submission specific issues, please see the [EBAS data submission Manual](http://ebas-submit-tool.nilu.no/troubleshooting) or contact us at <ebas@nilu.no>. 
 
-###A. Quick Start- File validation
+###1. Quick Start- File validation
 
 1. Go to http://ebas-submit-tool.nilu.no/
 2. Press "Select file..." and select the NASA ames file you want to validate
 3. Then press "Upload and check"
 4. If your file is encoded using UTF-8, you should be getting the metadata header information in the top text-box. If not check your encoding and make sure that your header data follows the same syntax as the templates listed at [ebas-submit.nilu.no](http://ebas-submit.nilu.no/SubmitData/RegularAnnualDataReporting.aspx).
 5. The application will prompt the number of errors and warnings (if you have any), you can hover over with your mouse pointer in order to get more information regarding the errors and warnings. 
-6. You can edit the information in your browser by double-clicking the respective lines in the online editor (As mentioned above, the session will automatically timeout after 30 minutes regardless of activity, and we therefore highly advice you to frequently save your edits using the "Save file" button, or edit in a seperate text-editor). You can also get file related errors listed in your browser, below the file header error console. Note that these ones you cannot edit in the browser, you must open a seperate text-editor if you see data your data contains errors or warnings.
+6. You can edit the information in your browser by double-clicking the respective lines in the online editor (As mentioned above, the session will automatically timeout after 30 minutes regardless of activity, therefore we highly encourage you to  save your file whenever a change has been made, so that you do not loose any changes, or edit the file in a seperate text-editor). You can also get file related errors listed in your browser, below the file header error console. Note that these ones you cannot edit in the browser, you must open a seperate text-editor if you see data your data contains errors or warnings.
 7. When you have eleminated all errors, you are able to press the "Submit file" button. Pressing this button will result in sending the data to the EBAS team for internal QA-check. The data-submitter listed in the file should recieve an e-mail confirming the submission.
 
+###2. In depth tutorial of the EBAS data validation and submission tool
 
-
-
-##2. The EBAS Data validation and submission Tool
-
-###2.2 The purpose of this tool
+####2.1 The purpose of this tool
 The EBAS Data Submission Tool is an online file format checker and a data submission system. It is designed to give the data submitters direct feedback on the formatted NASA Ames files and to deliver files through online data submission.
 
-Data submitters from all projects and programs submitting data to EBAS who want to: 
+The tool aims at supporting data submitters from all projects and programs submitting data to EBAS who want to: 
+
 - check the consistency of their NASA Ames file 
+
 - upload data to EBAS
 should use the tool.
 
-All measurement principles registred in the EBAS portal, with online formatting templates available at http://ebas-submit.nilu.no and http://gaw-wdca.org/SubmitData.aspx are supported by the tool. 
+All measurement principles registred in the EBAS portal, with online formatting templates available at <http://ebas-submit.nilu.no> and <http://gaw-wdca.org/SubmitData.aspx>, are supported by this tool. 
 
-###Quick tutorial
+####2.2 How to use the tool
 Go to [http://ebas-submit-tool.nilu.no/](http://ebas-submit-tool.nilu.no/)
 
 Make sure that the file is a NASA Ames 1001 EBAS formatted file, as described from the templates at [http://ebas-submit.nilu.no/](http://ebas-submit.nilu.no/) or [http://www.gaw-wdca.org](http://www.gaw-wdca.org). 
@@ -90,22 +89,17 @@ Make sure that the file is a NASA Ames 1001 EBAS formatted file, as described fr
 
 ![Submit file button](https://raw.githubusercontent.com/ebas-submission-tool/ebas-submission-tool-docs/master/images/submit_file.png "Submit file button")
 
-###Session timeout
-If you are working with a file, you must notice that the lifetime of a session is set to 30 minutes. Therfore all changes made in the web-editor will be lost after 30 minutes. 
-As a result we advise that you save your file whenever a change has been made, so that you do not loose any changes.
-
-###Saving files
-In order to save the changes you have commited in the ebas-web-editor, you must recheck the file (press the recheck button), before you press the save button in order for your changes to be saved on your machine.
-
 --------  -----------------------
 **Post-processing inside NILU:** 
 Before the data can be uploaded to EBAS, the submitted file will need manual inspection by the database team. If the file is correctly formatted, data will be available in EBAS within a few working days. The data submitter will be informed when this is done. He/she will also be contacted in case of problems with, or questions to, the submitted file.
 --------  -----------------------
 
-##Plotting data
+####2.3. Issues with parsing the data
+
+###3. Plotting data 
 The EBAS-submission-tool also comes with plotting capabilities. This is in order to make it easier for the users to validate their files and inspect their data before submission. This is especially usefull when you want to check for unusall values in your dataset and to double check that you have flagged all of these values. The community could also request to contribute to this tool by sending a request to ror@nilu.no.
 
-###Chrome users
+###3.1 Chrome users
 If you are using Google Chrome, your select box might only show the first column in the selected dataset. To enable selecting all of the columns, you have to change some of your default settings in Google Chrome.
 First go to Edit -> Preferences. Then at the bottom of the settings page (chrome://settings) press "Show advanced settings...". Scroll down until you see "Use hardware acceleration when available". Make sure this box is checked. This should work and if not, Firefox should be a safe choice.  
 
