@@ -11,15 +11,17 @@ This page contains information about the EBAS data submission and validation too
 
 **So where do I start looking?**:
 
-- If you are in a hurry to submit your data to EBAS you can look at **section 1.** Quick Start
+- If you are in a hurry to submit your data to EBAS you can look at **section 1.** Quick Start.
 
-- If you want a more thorugh understanding of the tool please have a look at **section 2.** In depth tutorial of the EBAS-submit-tool
+- If you want a more thorugh understanding of the tool please have a look at **section 2.** In depth tutorial of the EBAS-submit-tool.
 
 - If you have a file you would like to plot, please see **section 3.**
 
-- If you have problems with validating or parsing your file plases see the [EBAS-submit-tool troubleshooting docs](http://ebas-submit-tool.nilu.no/troubleshooting)
+- If you have problems with validating your file plases see the [EBAS-submit-tool troubleshooting docs](http://ebas-submit-tool.nilu.no/troubleshooting), for parsing issues see section 2.3. 
 
-- For data submission specific issues, please see the [EBAS data submission Manual](http://ebas-submit-tool.nilu.no/troubleshooting) or contact us at <ebas@nilu.no>. 
+- If you have data submission specific issues, please see the [EBAS data submission Manual](http://ebas-submit-tool.nilu.no/troubleshooting) or contact us at <ebas@nilu.no>. 
+
+- And if you would like to contribute to our troubleshooting docs you can check out **section 4**. 
 
 ###1. Quick Start- File validation
 
@@ -108,7 +110,7 @@ The EBAS-submission-tool also comes with plotting capabilities. This is in order
 
 > Currently you can only plot data that has a one year resolution, we expect to have fixed this in the next release
 
-###3.1 Chrome users
+####3.1 Chrome users
 If you are using Google Chrome, your select box might only show the first column in the selected dataset. To enable selecting all of the columns, you have to change some of your default settings in Google Chrome.
 First go to Edit -> Preferences. Then at the bottom of the settings page (chrome://settings) press "Show advanced settings...". Scroll down until you see "Use hardware acceleration when available". Make sure this box is checked. This should work and if not, Firefox should be a safe choice.  
 
