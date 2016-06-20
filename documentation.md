@@ -2,7 +2,7 @@
 * Currently you can only plot data that has a one year resolution
 * Session times out after 30 minutes regardless of browser activity
 
-<h1>Test</h1>
+<h1 style="color:red;">Test</h1>
 
 How to use EBAS Data Submission Tool application
 ============
