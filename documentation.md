@@ -1,7 +1,11 @@
+**Take Note:**
+* Currently you can only plot data that has a one year resolution
+* Session times out after 30 minutes regardless of browser activity
+
 How to use EBAS Data Submission Tool application
 ============
 
-> This is a quick introductory manual for the ebas-submit-tool as well as the plotting tool offered. This document also contains an how-to on how to contribute to the troubleshooting documentation as well as the manual itself. Please fork the ebas-submit-tool user-manual repository to contribute to the documentation. [https://github.com/richard-olav/docs-ebas-data-submission-tool](https://github.com/richard-olav/docs-ebas-data-submission-tool). For data submission specific issues, please see the [EBAS data submission Manual](http://ebas-submit.nilu.no/). 
+> This is a quick introductory manual for the ebas-submit-tool as well as the plotting tool offered. This document also contains an how-to on how to contribute to the troubleshooting documentation as well as the manual itself. Please fork the ebas-submit-tool user-manual repository to contribute to the documentation. [https://github.com/richard-olav/docs-ebas-data-submission-tool](https://github.com/richard-olav/docs-ebas-data-submission-tool). For data submission specific issues, please see the [EBAS data submission Manual](http://ebas-submit.nilu.no/) or contact us at ebas@nilu.no. 
 
 ##The EBAS Data submission Tool
 
@@ -86,7 +90,14 @@ For the EBAS-submission-tool manual and the troubleshooting document, Git is use
 ##The ebas-file-submission issue tracker
 At the moment we are experimenting with online support of our ebas-submission-tool platform. If you go the the issue tracker via the main menu, you will get a list of errors reported from users trying to upload files using the ebas submission tool. We are doing this in order for our users to look through errors and see if any of the users previously has submitted errors similar to you (if you ever experienced one). Instead of us helping each and one of you directly, we want to build a repository where everybody can take part. You will have to have a registered Github account to submit issues (this is free of charge) to submit issues and comment on issues reported. If you do not have a user, you could still browse the issues submited via the [issue tracker](https://github.com/richard-olav/troubleshooting-ebas-submit-errors/issues).
 
-##Tech Stack
+## Releases
+**Next release is scheduled for 20th of June, 2016**
+
+This will include bug fixes for:
+* Plotting data with resoultion more than 1 year
+* Session is deleted after 30 minutes
+
+## Tech Stack
 The EBAS-submit-tool is utilizes an open source technology stack.
 
 ![Python-flask](https://raw.githubusercontent.com/richard-olav/docs-ebas-data-submission-tool/master/images/tech_stack/flask.png "Flask")
