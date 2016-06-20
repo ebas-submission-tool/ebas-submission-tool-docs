@@ -10,11 +10,16 @@ The EBAS Data Submission Tool
 This page contains information about the EBAS data submission and validation tool (The tool that helps you validate and submit files using the EBAS NASA ames format) which we will refer to as the EBAS-submit-tool. In addtion we give you information on how to plot your data as well as how to best troubleshoot validation errors, including information on how to encode your file in the UTF-8 format.
 
 **So where do I go**:
-* If you are in a hurry to submit your data to EBAS you can look at section A. Quick Start
-* If you want a more thorugh understanding of the tool please have a look at section B. In depth tutorial of the EBAS-submit-tool
-* If you have a file you would like to plot, please see section C.
-* If you have problems with validating or parsing your file plases see the [EBAS-submit-tool troubleshooting docs](http://ebas-submit-tool.nilu.no/troubleshooting)
-* For data submission specific issues, please see the [EBAS data submission Manual](http://ebas-submit-tool.nilu.no/troubleshooting) or contact us at <ebas@nilu.no>. 
+
+- If you are in a hurry to submit your data to EBAS you can look at section A. Quick Start
+
+- If you want a more thorugh understanding of the tool please have a look at section B. In depth tutorial of the EBAS-submit-tool
+
+- If you have a file you would like to plot, please see section C.
+
+- If you have problems with validating or parsing your file plases see the [EBAS-submit-tool troubleshooting docs](http://ebas-submit-tool.nilu.no/troubleshooting)
+
+- For data submission specific issues, please see the [EBAS data submission Manual](http://ebas-submit-tool.nilu.no/troubleshooting) or contact us at <ebas@nilu.no>. 
 
 ###A. Quick Start- File validation
 
