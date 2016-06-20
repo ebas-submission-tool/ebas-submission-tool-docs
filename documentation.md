@@ -1,13 +1,15 @@
-**Take Note**:
-* Currently you can only plot data that has a one year resolution
-* Session times out after 30 minutes regardless of browser activity
+> **Take Note**:
+> * Currently you can only plot data that has a one year resolution
+> * Session times out after 30 minutes regardless of browser activity
 
-<h1 style="color:red;">Test</h1>
-
-How to use EBAS Data Submission Tool application
+The EBAS Data Submission Tool
 ============
 
-> This is a quick introductory manual for the ebas-submit-tool as well as the plotting tool offered. This document also contains an how-to on how to contribute to the troubleshooting documentation as well as the manual itself. Please fork the ebas-submit-tool user-manual repository to contribute to the documentation. [https://github.com/richard-olav/docs-ebas-data-submission-tool](https://github.com/richard-olav/docs-ebas-data-submission-tool). For data submission specific issues, please see the [EBAS data submission Manual](http://ebas-submit.nilu.no/) or contact us at ebas@nilu.no. 
+##About
+This page contains a quick introductory manual for the ebas-submit-tool (validation of files using the EBAS NASA ames format) as well as the plotting tool offered. This document also contains an how-to on how to contribute to the troubleshooting documentation as well as the manual itself. Please fork the ebas-submit-tool user-manual repository to contribute to the documentation. [https://github.com/richard-olav/docs-ebas-data-submission-tool](https://github.com/richard-olav/docs-ebas-data-submission-tool). 
+
++ If you have problems with validating or parsing your file plases see the [EBAS-submit-tool troubleshooting docs]()
++ For data submission specific issues, please see the [EBAS data submission Manual](http://ebas-submit-tool.nilu.no/troubleshooting) or contact us at <ebas@nilu.no></ebas@nilu.no>. 
 
 ##The EBAS Data submission Tool
 
