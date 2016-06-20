@@ -1,19 +1,37 @@
-> **Take Note**:
-> * Currently you can only plot data that has a one year resolution
-> * Session times out after 30 minutes regardless of browser activity
+> **Pay attention**:
+> + Currently you can only plot data that has a one year resolution
+> + Session times out after 30 minutes regardless of browser activity
+> + Also makes sure that your file is encoded using UTF-8
 
 The EBAS Data Submission Tool
 ============
 
 ##About
-This page contains a quick introductory manual for the ebas-submit-tool (validation of files using the EBAS NASA ames format) as well as the plotting tool offered. This document also contains an how-to on how to contribute to the troubleshooting documentation as well as the manual itself. Please fork the ebas-submit-tool user-manual repository to contribute to the documentation. [https://github.com/richard-olav/docs-ebas-data-submission-tool](https://github.com/richard-olav/docs-ebas-data-submission-tool). 
+This page contains information about the EBAS data submission and validation tool (The tool that helps you validate and submit files using the EBAS NASA ames format) which we will refer to as the EBAS-submit-tool. In addtion we give you information on how to plot your data as well as how to best troubleshoot validation errors, including information on how to encode your file in the UTF-8 format.
 
-+ If you have problems with validating or parsing your file plases see the [EBAS-submit-tool troubleshooting docs]()
-+ For data submission specific issues, please see the [EBAS data submission Manual](http://ebas-submit-tool.nilu.no/troubleshooting) or contact us at <ebas@nilu.no></ebas@nilu.no>. 
+**So where do I go**:
++ If you are in a hurry to submit your data to EBAS you can look at section A. Quick Start
++ If you want a more thorugh understanding of the tool please have a look at section B. In depth tutorial of the EBAS-submit-tool
++ If you have a file you would like to plot, please see section C.
++ If you have problems with validating or parsing your file plases see the [EBAS-submit-tool troubleshooting docs](http://ebas-submit-tool.nilu.no/troubleshooting)
++ For data submission specific issues, please see the [EBAS data submission Manual](http://ebas-submit-tool.nilu.no/troubleshooting) or contact us at <ebas@nilu.no>. 
 
-##The EBAS Data submission Tool
+###A. Quick Start- File validation
 
-###The purpose of this tool
+1. Go to http://ebas-submit-tool.nilu.no/
+2. Press "Select file..." and select the NASA ames file you want to validate
+3. Then press "Upload and check"
+4. If your file is encoded using UTF-8, you should be getting the metadata header information in the top text-box. If not check your encoding and make sure that your header data follows the same syntax as the templates listed at [ebas-submit.nilu.no](http://ebas-submit.nilu.no/SubmitData/RegularAnnualDataReporting.aspx).
+5. The application will prompt the number of errors and warnings (if you have any), you can hover over with your mouse pointer in order to get more information regarding the errors and warnings. 
+6. You can edit the information in your browser by double-clicking the respective lines in the online editor (As mentioned above, the session will automatically timeout after 30 minutes regardless of activity, and we therefore highly advice you to frequently save your edits using the "Save file" button, or edit in a seperate text-editor). You can also get file related errors listed in your browser, below the file header error console. Note that these ones you cannot edit in the browser, you must open a seperate text-editor if you see data your data contains errors or warnings.
+7. When you have eleminated all errors, you are able to press the "Submit file" button. Pressing this button will result in sending the data to the EBAS team for internal QA-check. The data-submitter listed in the file should recieve an e-mail confirming the submission.
+
+
+
+
+##2. The EBAS Data validation and submission Tool
+
+###2.2 The purpose of this tool
 The EBAS Data Submission Tool is an online file format checker and a data submission system. It is designed to give the data submitters direct feedback on the formatted NASA Ames files and to deliver files through online data submission.
 
 Data submitters from all projects and programs submitting data to EBAS who want to: 
