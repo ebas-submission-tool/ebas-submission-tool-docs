@@ -1,7 +1,7 @@
 > **Pay attention**:
-> + Currently you can only plot data that has a one year resolution
-> + Session times out after 30 minutes regardless of browser activity. As a result we advise that you save your file whenever a change has been made, so that you do not loose any changes.
-> + Also makes sure that your file is encoded using UTF-8
+> - Currently you can only plot data that has a one year resolution
+> - Session times out after 30 minutes regardless of browser activity. As a result we advise that you save your file whenever a change has been made, so that you do not loose any changes.
+> - Also makes sure that your file is encoded using UTF-8
 
 The EBAS Data Submission Tool
 ============
@@ -9,7 +9,7 @@ The EBAS Data Submission Tool
 ##About
 This page contains information about the EBAS data submission and validation tool (The tool that helps you validate and submit files using the EBAS NASA ames format) which we will refer to as the EBAS-submit-tool. In addtion we give you information on how to plot your data as well as how to best troubleshoot validation errors, including information on how to encode your file in the UTF-8 format.
 
-**So where do I go**:
+**So where do I start looking?**:
 
 - If you are in a hurry to submit your data to EBAS you can look at **section 1.** Quick Start
 
@@ -38,9 +38,9 @@ The EBAS Data Submission Tool is an online file format checker and a data submis
 
 The tool aims at supporting data submitters from all projects and programs submitting data to EBAS who want to: 
 
-- check the consistency of their NASA Ames file 
+- Check the consistency of their NASA Ames file 
 
-- upload data to EBAS
+- Upload data to EBAS
 should use the tool.
 
 All measurement principles registred in the EBAS portal, with online formatting templates available at <http://ebas-submit.nilu.no> and <http://gaw-wdca.org/SubmitData.aspx>, are supported by this tool. 
@@ -95,9 +95,18 @@ Before the data can be uploaded to EBAS, the submitted file will need manual ins
 --------  -----------------------
 
 ####2.3. Issues with parsing the data
+If you are trying to upload a dataset pressing the "Select file..." button, but experience that you are getting an error similar to "Internal Server Error 500" or "Requested JSON parse error", we suspect that you have not encoded your file in the proper encoding format. 
+
+To find our wich encoding your file uses you can either use a text-editor and select save as, then most editors will likely show you which file encoding your file currently is going to be saved as. 
+
+You can also use a web-browser to check the file format. With Firefox for example you can check this by Open firefox. Go to File-> Open File and then select your nasa-ames file. Then go to View -> Text Encoding and see what type of encoding you file is using. If you e.g. see that you are using "Western" encoding, switch to Unicode. If you have invalid charachters these will likely look something like this, e.g. -40�C instead of -40°C or H�rger instead of Hörger. The character encoding should be set to Unicode or UTF-8.
+
+If you still are getting the same error, please contact us at <ebas@nilu.no>, or submit an issue using our issue tracker at github <https://github.com/ebas-submission-tool/troubleshooting/issues>.
 
 ###3. Plotting data 
 The EBAS-submission-tool also comes with plotting capabilities. This is in order to make it easier for the users to validate their files and inspect their data before submission. This is especially usefull when you want to check for unusall values in your dataset and to double check that you have flagged all of these values. The community could also request to contribute to this tool by sending a request to ror@nilu.no.
+
+> Currently you can only plot data that has a one year resolution, we expect to have fixed this in the next release
 
 ###3.1 Chrome users
 If you are using Google Chrome, your select box might only show the first column in the selected dataset. To enable selecting all of the columns, you have to change some of your default settings in Google Chrome.
