@@ -1,7 +1,5 @@
 > **Pay attention**:
-> - Currently you can only plot data that has a one year resolution
-> - Session times out after 30 minutes regardless of browser activity. As a result we advise that you save your file whenever a change has been made, so that you do not loose any changes.
-> - Also makes sure that your file is encoded using UTF-8
+> - Make sure that your file is encoded using UTF-8
 
 The EBAS Data Submission Tool
 ============
